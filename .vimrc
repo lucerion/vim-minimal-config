@@ -37,16 +37,9 @@ set showmatch
 
 set smarttab
 set expandtab
-set tabstop=4
-set softtabstop=4
+set tabstop=2
+set softtabstop=2
 set autoindent
 set smartindent
 set shiftround
-set shiftwidth=4
-
-
-augroup indentation
-  autocmd!
-  autocmd FileType vim,ruby,html,css,eruby,haml,slim,coffee,scss,less
-    \ set tabstop=2 shiftwidth=2 softtabstop=2
-augroup END
+set shiftwidth=2
